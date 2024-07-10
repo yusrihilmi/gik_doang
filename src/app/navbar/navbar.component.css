@@ -1,18 +1,20 @@
 .navigation-list a.active {
-  border-bottom: 2px solid #21ada8;
+  border-bottom: 2px solid white;
   transition: border-bottom 0, 3 ease, color 0, 3 ease;
 }
 
 .navigation-list a:hover {
-  border-bottom: 2px solid #21ADA8;
+  border-bottom: 2px solid white;
   transition: border-bottom 0, 3 ease, color 0, 3 ease;
 }
 
 .navbar {
   /* Your default navbar styles go here */
-  transition: box-shadow 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .scrolled {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 1.2);
+  background-color: #322721;
+  color: white;
 }

@@ -1,67 +1,218 @@
-<section class="text-gray-600 body-font relative mt-[150px] lg:mt-[115px]">
-  <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center overflow-hidden">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img class="object-cover object-center rounded" alt="hero" src="assets/img/home-profile.png">
-    </div>
-    <div
-      class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <p class="mb-4 leading-relaxed">I'm Frontend Developer and AR Filter Creator</p>
-      <div class="h-1 mb-4 bg-gray-200 rounded overflow-hidden loading-bar-container">
-        <div class="w-24 h-full bg-[#99EEBB] loading-bar"></div>
+<section class="text-gray-600 body-font relative">
+  <div>
+    <div class="banner hidden md:block container-fluid">
+      <div class="h-[590px] w-full flex flex-column justify-center items-center">
+        <h1 class="text-[#322721] p-3 bg-white  text-6xl" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Gik_Doang</h1>
       </div>
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hello, My name is Yusri Hilmi Muhammad
-      </h1>
-      <h2 class="mb-4 leading-relaxed sm:text-xl text-l">Here's my portfolio section and others !</h2>
-      <div class="grid grid-cols-2 gap-4 w-full">
-        <a routerLink="/web-projects"
-          class=" bg-none text-center border-[#99EEBB] border-4 py-2 px-6 focus:outline-none hover:bg-[#99EEBB] hover:text-white rounded md:text-lg text-sm font-bold transition ease-in-out duration-300">Web
-          Projects</a>
-        <a routerLink="/filter-projects"
-          class=" bg-none text-center border-[#99EEBB] border-4 py-2 px-6 focus:outline-none hover:bg-[#99EEBB] hover:text-white rounded md:text-lg text-sm font-bold transition ease-in-out duration-300">Filter
-          Projects</a>
-        <a routerLink="/about"
-          class=" bg-none text-center border-[#99EEBB] border-4 py-2 px-6 focus:outline-none hover:bg-[#99EEBB] hover:text-white rounded md:text-lg text-sm font-bold transition ease-in-out duration-300">About</a>
-        <a routerLink="/social-media"
-          class=" bg-none text-center border-[#99EEBB] border-4 py-2 px-6 focus:outline-none hover:bg-[#99EEBB] hover:text-white rounded md:text-lg text-sm font-bold transition ease-in-out duration-300">Social
-          Media</a>
-      </div>
+      <div class="gradient-overlay"></div>
     </div>
+    <div class="banner-mobile block md:hidden container-fluid">
+      <div class="h-[590px] w-full flex flex-column justify-center items-center">
+        <h1 class="text-[#322721] p-3 bg-white  text-3xl" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Gik_Doang</h1>
+      </div>
+      <div class="gradient-overlay"></div>
+    </div>
+    <div class="container-fluid video-container ">
+      <div class="gradient"></div>
+      <video autoplay muted loop id="myVideo" class="w-full hidden md:block">
+        <source src="assets/img/background_gik.mp4" type="video/mp4">
+      </video>
+      <div class="desktop-view hidden md:block absolute top-0 w-full">
+        <div class="container mx-auto px-4 py-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-  </div>
-    <div class="container px-5 py-6 mx-auto flex flex-wrap">
-      <div class="flex w-full mb-8 flex-wrap">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font text-[#21ADA8] lg:w-1/3 lg:mb-0 mb-4">Where Code Becomes Art.</h1>
-        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Crafting wonders in the programming gallery involves meticulous code artistry, where algorithms are sculpted, and innovations are painted with precision. Each line of code is a brushstroke, forming a masterpiece that seamlessly integrates technology and creativity.</p>
-      </div>
-      <div class="flex flex-wrap md:-m-2 -m-1">
-        <div class="flex flex-wrap w-full md:w-1/2">
-            <a routerLink="/web-projects/greenchem" class="md:p-2 p-1 w-1/2">
-              <img alt="gallery" class="w-full object-cover h-full object-center block"
-                src="assets/img/home-greenchem.png">
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-1.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Commission work for a Technical Death Metal Band</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">Collaborating again with the Lost By Design Records label from New Zealand, what is the title of this single?
+                  I don't know because they were busy and forgot to reply to my email ahahah</p>
+              </div>
             </a>
-          <div class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block"
-              src="assets/img/home-tbp.png">
-          </div>
-          <div class="md:p-2 p-1 w-full">
-            <img alt="gallery" class="w-full h-full object-cover object-center block"
-              src="assets/img/home-itmg.png">
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-2.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Commission work to Blackened Heavy/Power Metal.</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">"Falling From The Sky" <br>
+                  The concept is the final call has come and all the angels are set on Fire to be eliminated from the memory of man so mankind can be liberated from being a slave race so need a cover to reflect that.</p>
+              </div>
+            </a>
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-3.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Commission work for a Teenage Metal Band</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">“Once Again In Darkness” <br>
+                  This design concept depicts a solar eclipse that is almost closed and completely dark, then leaves a patch of yellow light.</p>
+              </div>
+            </a>
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-5.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  "Shadow In Insanity's"</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">This artwork is available for sale</p>
+              </div>
+            </a>
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-4.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  "Breathless Oblivion"</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">Hello mate, In 2024 I want to return to using the blue theme.</p>
+              </div>
+            </a>
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('/assets/img/asset-6.jpg');">
+              <div
+                class="absolute inset-0 group-hover:bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-center text-2xl font-bold mb-2 opacity-0  group-hover:opacity-100 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Commission Work to Melodic Death/Groove/Thrash Metal Band.</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">"Off To War"
+                  The idea next EP is will be called "Off To War" and for its main artwork, Would need something that goes by the realistic side.
+                  Sunflower field with a big curious adult grizzly bear walking around with its cubs (babies).
+                  There would be human skulls (some intacts, some in good condition) blood stains and bones on the ground, just as if a battle took place there. The sky would be blue as it can be.</p>
+              </div>
+            </a>
+            
+
           </div>
         </div>
-        <div class="flex flex-wrap w-full md:w-1/2">
-          <a routerLink="/filter-projects" class="md:p-2 p-1 w-full">
-            <img alt="gallery" class="w-full h-full object-cover object-center block"
-              src="assets/img/home-mazda.png">
-          </a>
-          <a routerLink="/filter-projects" class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block"
-              src="assets/img/home-gatsby.png">
-          </a>
-          <a routerLink="/filter-projects/" class="md:p-2 p-1 w-1/2">
-            <img alt="gallery" class="w-full object-cover h-full object-center block"
-              src="assets/img/home-tri.png">
-          </a>
+      </div>
+      <div class="desktop-view block md:hidden  w-full">
+        
+        <div class="container mx-auto px-4 py-8">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Service Block 1 -->
+            <a routerLink="/web-projects/greenchem"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 1</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 1</p>
+              </div>
+            </a>
+            <!-- Service Block 2 -->
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 2</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 2</p>
+              </div>
+            </a>
+            <!-- Service Block 3 -->
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 3</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 3</p>
+              </div>
+            </a>
+            <!-- Service Block 4 -->
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 4</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 4</p>
+              </div>
+            </a>
+            <!-- Service Block 5 -->
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 5</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 5</p>
+              </div>
+            </a>
+            <!-- Service Block 6 -->
+            <a href="#"
+              class="relative group block bg-cover bg-center aspect-square rounded-lg overflow-hidden shadow-lg"
+              style="background-image: url('https://via.placeholder.com/300');">
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-75 transition duration-300 ease-in-out">
+              </div>
+              <div class="absolute inset-0 flex flex-col items-center justify-center p-4">
+                <h3
+                  class="text-white text-2xl font-bold mb-2 transform group-hover:-translate-y-2 transition duration-300 ease-in-out">
+                  Service 6</h3>
+                <p class="text-white text-center opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
+                  Short description of Service 6</p>
+              </div>
+            </a>
+
+          </div>
+          
         </div>
+        <video autoplay muted loop id="myVideo-mobile" class="w-full md:hidden">
+          <source src="assets/img/background_gik.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
+  </div>
 </section>
